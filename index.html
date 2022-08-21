@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clique hover en black&white</title>
+</head>
+<body>
+    <section>
+        <h2>Clique hover en B&W</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia voluptate, iusto, dignissimos consequuntur quia nam culpa recusandae velit architecto accusamus odit quas, aspernatur quidem quis ad in consequatur exercitationem tempore.</p>
+        <p>Praesentium, repellat aperiam magnam aliquam velit nam corrupti omnis quam exercitationem illo! Magnam, perferendis velit. Tempore nam perspiciatis perferendis eligendi quis rem, ipsa dicta mollitia reprehenderit odit, beatae cumque! Quibusdam?</p>
+        <p>Beatae vero fugiat ullam eos saepe, minus expedita fuga hic architecto a atque ducimus tenetur et veniam corrupti nostrum in dolorum ipsa obcaecati eaque quis nisi recusandae? At, assumenda porro.</p>
+        <p>Placeat facilis enim soluta, recusandae vero dolore dolor tempora repellat ullam eos repudiandae libero, deleniti cupiditate, quo dicta. Harum itaque, reprehenderit totam et illum earum cupiditate voluptate sequi praesentium. Placeat?</p>
+    </section>
+    <div id="cursor"></div>
+    <script type="text/javascript">
+        var cursor = document.getElementById('cursor');
+        window.onmousemove = function(e){
+            var x = e.clientX,
+                y = e.clientY;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+        }
+    </script>
+</body>
+</html>
